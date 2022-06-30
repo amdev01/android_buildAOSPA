@@ -892,9 +892,9 @@ def AddImagesToTargetFiles(filename):
 
   if not OPTIONS.is_signing:
     banner("userdata")
-    AddUserdata(output_zip)
+    #AddUserdata(output_zip)
     banner("cache")
-    AddCache(output_zip)
+    #AddCache(output_zip)
 
   if OPTIONS.info_dict.get("board_bpt_enable") == "true":
     banner("partition-table")
